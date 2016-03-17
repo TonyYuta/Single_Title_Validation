@@ -8,7 +8,7 @@
 	<version>${build.version}</version>
 	<packaging>jar</packaging>
 
-	<name>Title_Validation</name>
+	<name>Single_argument</name>
 	<url>http://maven.apache.org</url>
 
 	<properties>
@@ -38,7 +38,7 @@
 				<configuration>
 					<archive>
 						<manifest>
-							<mainClass>core.Selenium</mainClass>
+							<mainClass>core.Firefox</mainClass>
 						</manifest>
 					</archive>
 					<descriptorRefs>
